@@ -14,6 +14,7 @@ function bindData(articles){
     const cardsouter = document.getElementById("cards-outer");
     const newsTemplate = document.getElementById("news-template");
     cardsouter.innerHTML = "";
+    if (!articles || !Array.isArray(articles)) return; 
 
     articles.forEach(article => {
         if (!article.urlToImage) return;
