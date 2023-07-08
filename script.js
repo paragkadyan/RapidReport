@@ -1,4 +1,4 @@
-const API_key = "pub_258764c627ca883d0ce66b6df45f50ace7b63";
+const API_key = "pub_259020160dede80e9130541a1639678730dff";
 const url = "https://newsdata.io/api/1/news?apikey=";
 
 window.addEventListener('load', () => fetchNews("category=top"));
