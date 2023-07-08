@@ -1,11 +1,11 @@
-const API_key = "pub_259020160dede80e9130541a1639678730dff";
+const API_key = "pub_259020160dede80e9130541a1639678730dff&";
 const url = "https://newsdata.io/api/1/news?apikey=";
 
 window.addEventListener('load', () => fetchNews("category=top"));
 
 async function fetchNews(query) {
 
-        const res = await fetch(`https://newsdata.io/api/1/news?apikey=pub_258764c627ca883d0ce66b6df45f50ace7b63&${query}&language=en`);
+        const res = await fetch(`https://newsdata.io/api/1/news?apikey=pub_259020160dede80e9130541a1639678730dff&${query}&language=en`);
         const data = await res.json();
         console.log(data);
         
