@@ -49,6 +49,7 @@ nav{
     background-color: black;
 }
 
+
 .main-nav {
     justify-content: space-between;
     padding-block: 8px;
@@ -60,6 +61,10 @@ nav{
 
 .on-hover{
     cursor: pointer;
+}
+
+.nav-items.active{
+    color: rgb(0, 51, 255);
 }
 
 .on-hover:hover{
@@ -111,17 +116,17 @@ main{
     justify-content: space-between;
     row-gap:20px;
     align-items: start;
-    column-gap: 3px;
 }
 
 .card {
-    width: 360px;
-    height: 400px;
+    width: 450px;
+    height: 500px;
     box-shadow: 0 0 5px rgb(145, 145, 194);
     cursor: pointer;
     border-radius: 4px;
     overflow: hidden;
     transition: all 0.4s ease;
+    margin-bottom: 15px;
 
 }
 
